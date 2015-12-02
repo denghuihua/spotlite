@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AEDB8A31C0E9E7A0086897C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDB8A21C0E9E7A0086897C /* main.m */; };
+		4AEDB8A61C0E9E7A0086897C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDB8A51C0E9E7A0086897C /* AppDelegate.m */; };
+		4AEDB8A91C0E9E7A0086897C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDB8A81C0E9E7A0086897C /* ViewController.m */; };
+		4AEDB8AC1C0E9E7A0086897C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEDB8AA1C0E9E7A0086897C /* Main.storyboard */; };
+		4AEDB8AE1C0E9E7A0086897C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AEDB8AD1C0E9E7A0086897C /* Assets.xcassets */; };
+		4AEDB8B11C0E9E7A0086897C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEDB8AF1C0E9E7A0086897C /* LaunchScreen.storyboard */; };
+		4AEDB8BC1C0E9E7A0086897C /* SpotliteDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDB8BB1C0E9E7A0086897C /* SpotliteDemoTests.m */; };
+		4AEDB8C71C0E9E7A0086897C /* SpotliteDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDB8C61C0E9E7A0086897C /* SpotliteDemoUITests.m */; };
+		4AEDB8D61C0EA3030086897C /* PeopleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDB8D51C0EA3030086897C /* PeopleModel.m */; };
+		4AEDB8D91C0EA34F0086897C /* SpotliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEDB8D81C0EA34F0086897C /* SpotliteTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AEDB8B81C0E9E7A0086897C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AEDB8961C0E9E7A0086897C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AEDB89D1C0E9E7A0086897C;
+			remoteInfo = SpotliteDemo;
+		};
+		4AEDB8C31C0E9E7A0086897C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AEDB8961C0E9E7A0086897C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AEDB89D1C0E9E7A0086897C;
+			remoteInfo = SpotliteDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AEDB89E1C0E9E7A0086897C /* SpotliteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotliteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEDB8A21C0E9E7A0086897C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AEDB8A41C0E9E7A0086897C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AEDB8A51C0E9E7A0086897C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AEDB8A71C0E9E7A0086897C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AEDB8A81C0E9E7A0086897C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AEDB8AB1C0E9E7A0086897C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AEDB8AD1C0E9E7A0086897C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AEDB8B01C0E9E7A0086897C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AEDB8B21C0E9E7A0086897C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AEDB8B71C0E9E7A0086897C /* SpotliteDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotliteDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEDB8BB1C0E9E7A0086897C /* SpotliteDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotliteDemoTests.m; sourceTree = "<group>"; };
+		4AEDB8BD1C0E9E7A0086897C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AEDB8C21C0E9E7A0086897C /* SpotliteDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotliteDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEDB8C61C0E9E7A0086897C /* SpotliteDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotliteDemoUITests.m; sourceTree = "<group>"; };
+		4AEDB8C81C0E9E7A0086897C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AEDB8D41C0EA3030086897C /* PeopleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleModel.h; sourceTree = "<group>"; };
+		4AEDB8D51C0EA3030086897C /* PeopleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleModel.m; sourceTree = "<group>"; };
+		4AEDB8D71C0EA34F0086897C /* SpotliteTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotliteTool.h; sourceTree = "<group>"; };
+		4AEDB8D81C0EA34F0086897C /* SpotliteTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotliteTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AEDB89B1C0E9E7A0086897C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEDB8B41C0E9E7A0086897C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEDB8BF1C0E9E7A0086897C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AEDB8951C0E9E7A0086897C = {
+			isa = PBXGroup;
+			children = (
+				4AEDB8A01C0E9E7A0086897C /* SpotliteDemo */,
+				4AEDB8BA1C0E9E7A0086897C /* SpotliteDemoTests */,
+				4AEDB8C51C0E9E7A0086897C /* SpotliteDemoUITests */,
+				4AEDB89F1C0E9E7A0086897C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AEDB89F1C0E9E7A0086897C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AEDB89E1C0E9E7A0086897C /* SpotliteDemo.app */,
+				4AEDB8B71C0E9E7A0086897C /* SpotliteDemoTests.xctest */,
+				4AEDB8C21C0E9E7A0086897C /* SpotliteDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AEDB8A01C0E9E7A0086897C /* SpotliteDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4AEDB8A41C0E9E7A0086897C /* AppDelegate.h */,
+				4AEDB8A51C0E9E7A0086897C /* AppDelegate.m */,
+				4AEDB8A71C0E9E7A0086897C /* ViewController.h */,
+				4AEDB8A81C0E9E7A0086897C /* ViewController.m */,
+				4AEDB8AA1C0E9E7A0086897C /* Main.storyboard */,
+				4AEDB8AD1C0E9E7A0086897C /* Assets.xcassets */,
+				4AEDB8AF1C0E9E7A0086897C /* LaunchScreen.storyboard */,
+				4AEDB8B21C0E9E7A0086897C /* Info.plist */,
+				4AEDB8A11C0E9E7A0086897C /* Supporting Files */,
+				4AEDB8D41C0EA3030086897C /* PeopleModel.h */,
+				4AEDB8D51C0EA3030086897C /* PeopleModel.m */,
+				4AEDB8D71C0EA34F0086897C /* SpotliteTool.h */,
+				4AEDB8D81C0EA34F0086897C /* SpotliteTool.m */,
+			);
+			path = SpotliteDemo;
+			sourceTree = "<group>";
+		};
+		4AEDB8A11C0E9E7A0086897C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AEDB8A21C0E9E7A0086897C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AEDB8BA1C0E9E7A0086897C /* SpotliteDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AEDB8BB1C0E9E7A0086897C /* SpotliteDemoTests.m */,
+				4AEDB8BD1C0E9E7A0086897C /* Info.plist */,
+			);
+			path = SpotliteDemoTests;
+			sourceTree = "<group>";
+		};
+		4AEDB8C51C0E9E7A0086897C /* SpotliteDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AEDB8C61C0E9E7A0086897C /* SpotliteDemoUITests.m */,
+				4AEDB8C81C0E9E7A0086897C /* Info.plist */,
+			);
+			path = SpotliteDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AEDB89D1C0E9E7A0086897C /* SpotliteDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEDB8CB1C0E9E7A0086897C /* Build configuration list for PBXNativeTarget "SpotliteDemo" */;
+			buildPhases = (
+				4AEDB89A1C0E9E7A0086897C /* Sources */,
+				4AEDB89B1C0E9E7A0086897C /* Frameworks */,
+				4AEDB89C1C0E9E7A0086897C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotliteDemo;
+			productName = SpotliteDemo;
+			productReference = 4AEDB89E1C0E9E7A0086897C /* SpotliteDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AEDB8B61C0E9E7A0086897C /* SpotliteDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEDB8CE1C0E9E7A0086897C /* Build configuration list for PBXNativeTarget "SpotliteDemoTests" */;
+			buildPhases = (
+				4AEDB8B31C0E9E7A0086897C /* Sources */,
+				4AEDB8B41C0E9E7A0086897C /* Frameworks */,
+				4AEDB8B51C0E9E7A0086897C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AEDB8B91C0E9E7A0086897C /* PBXTargetDependency */,
+			);
+			name = SpotliteDemoTests;
+			productName = SpotliteDemoTests;
+			productReference = 4AEDB8B71C0E9E7A0086897C /* SpotliteDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AEDB8C11C0E9E7A0086897C /* SpotliteDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEDB8D11C0E9E7A0086897C /* Build configuration list for PBXNativeTarget "SpotliteDemoUITests" */;
+			buildPhases = (
+				4AEDB8BE1C0E9E7A0086897C /* Sources */,
+				4AEDB8BF1C0E9E7A0086897C /* Frameworks */,
+				4AEDB8C01C0E9E7A0086897C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AEDB8C41C0E9E7A0086897C /* PBXTargetDependency */,
+			);
+			name = SpotliteDemoUITests;
+			productName = SpotliteDemoUITests;
+			productReference = 4AEDB8C21C0E9E7A0086897C /* SpotliteDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AEDB8961C0E9E7A0086897C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = huihuadeng;
+				TargetAttributes = {
+					4AEDB89D1C0E9E7A0086897C = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					4AEDB8B61C0E9E7A0086897C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4AEDB89D1C0E9E7A0086897C;
+					};
+					4AEDB8C11C0E9E7A0086897C = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4AEDB89D1C0E9E7A0086897C;
+					};
+				};
+			};
+			buildConfigurationList = 4AEDB8991C0E9E7A0086897C /* Build configuration list for PBXProject "SpotliteDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AEDB8951C0E9E7A0086897C;
+			productRefGroup = 4AEDB89F1C0E9E7A0086897C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AEDB89D1C0E9E7A0086897C /* SpotliteDemo */,
+				4AEDB8B61C0E9E7A0086897C /* SpotliteDemoTests */,
+				4AEDB8C11C0E9E7A0086897C /* SpotliteDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AEDB89C1C0E9E7A0086897C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEDB8B11C0E9E7A0086897C /* LaunchScreen.storyboard in Resources */,
+				4AEDB8AE1C0E9E7A0086897C /* Assets.xcassets in Resources */,
+				4AEDB8AC1C0E9E7A0086897C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEDB8B51C0E9E7A0086897C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEDB8C01C0E9E7A0086897C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AEDB89A1C0E9E7A0086897C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEDB8A91C0E9E7A0086897C /* ViewController.m in Sources */,
+				4AEDB8A61C0E9E7A0086897C /* AppDelegate.m in Sources */,
+				4AEDB8D61C0EA3030086897C /* PeopleModel.m in Sources */,
+				4AEDB8D91C0EA34F0086897C /* SpotliteTool.m in Sources */,
+				4AEDB8A31C0E9E7A0086897C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEDB8B31C0E9E7A0086897C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEDB8BC1C0E9E7A0086897C /* SpotliteDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEDB8BE1C0E9E7A0086897C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEDB8C71C0E9E7A0086897C /* SpotliteDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AEDB8B91C0E9E7A0086897C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AEDB89D1C0E9E7A0086897C /* SpotliteDemo */;
+			targetProxy = 4AEDB8B81C0E9E7A0086897C /* PBXContainerItemProxy */;
+		};
+		4AEDB8C41C0E9E7A0086897C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AEDB89D1C0E9E7A0086897C /* SpotliteDemo */;
+			targetProxy = 4AEDB8C31C0E9E7A0086897C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AEDB8AA1C0E9E7A0086897C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AEDB8AB1C0E9E7A0086897C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AEDB8AF1C0E9E7A0086897C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AEDB8B01C0E9E7A0086897C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AEDB8C91C0E9E7A0086897C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AEDB8CA1C0E9E7A0086897C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AEDB8CC1C0E9E7A0086897C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpotliteDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sohu.SpotliteDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AEDB8CD1C0E9E7A0086897C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpotliteDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sohu.SpotliteDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4AEDB8CF1C0E9E7A0086897C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpotliteDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sohu.SpotliteDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotliteDemo.app/SpotliteDemo";
+			};
+			name = Debug;
+		};
+		4AEDB8D01C0E9E7A0086897C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpotliteDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sohu.SpotliteDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotliteDemo.app/SpotliteDemo";
+			};
+			name = Release;
+		};
+		4AEDB8D21C0E9E7A0086897C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpotliteDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sohu.SpotliteDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpotliteDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4AEDB8D31C0E9E7A0086897C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpotliteDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sohu.SpotliteDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpotliteDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AEDB8991C0E9E7A0086897C /* Build configuration list for PBXProject "SpotliteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEDB8C91C0E9E7A0086897C /* Debug */,
+				4AEDB8CA1C0E9E7A0086897C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AEDB8CB1C0E9E7A0086897C /* Build configuration list for PBXNativeTarget "SpotliteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEDB8CC1C0E9E7A0086897C /* Debug */,
+				4AEDB8CD1C0E9E7A0086897C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AEDB8CE1C0E9E7A0086897C /* Build configuration list for PBXNativeTarget "SpotliteDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEDB8CF1C0E9E7A0086897C /* Debug */,
+				4AEDB8D01C0E9E7A0086897C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AEDB8D11C0E9E7A0086897C /* Build configuration list for PBXNativeTarget "SpotliteDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEDB8D21C0E9E7A0086897C /* Debug */,
+				4AEDB8D31C0E9E7A0086897C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AEDB8961C0E9E7A0086897C /* Project object */;
+}
